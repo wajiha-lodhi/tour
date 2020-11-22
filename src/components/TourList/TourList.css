@@ -1,0 +1,24 @@
+.tourlist{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1.5rem;
+    width: 95%;
+    margin: auto;
+}
+@media (max-width:1022px){
+    .tourlist{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:768px){
+    .tourlist{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:500px){
+    .tourlist{
+        grid-template-columns: 1fr;
+    }
+}

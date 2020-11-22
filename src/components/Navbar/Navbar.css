@@ -1,0 +1,16 @@
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+.nav ul li{
+    list-style: none;
+}
