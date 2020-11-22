@@ -13,7 +13,7 @@ class TourList extends Component {
     this.setState({
       tours: sortedTours
     })
-  }
+  } 
   render() {
     const {tours} = this.state;
     console.log(this.state.tours);
